@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Kantumruy+Pro:ital@1&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    margin-left: 12px;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-size: 1.6rem;
+}
+#logo img{
+    height: 60px;
+    margin-right: 15px;
+}
+#navbar{
+    background-color: rgb(156, 193, 225);
+    display: flex;
+    position: sticky;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: black;
+}
+#navbar li a:hover{
+    color: lightgoldenrodyellow;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    margin: auto;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+#navbar ul li{
+    padding: 5px;
+    margin: 10px 45px;
+    margin-bottom: 15px;
+}
+#introSection{
+    color: rgb(151, 204, 222);
+    font-family: 'Arima', cursive;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background: url("/static/danceacademybg.jpg") center center/cover no-repeat;
+}
+#introSection .container{
+    padding-bottom: 300px;
+}
+#introSection .container .small{
+    padding-left: 200px;
+    padding-top: 15px;
+}
+#introSection h1{
+    font-size: 50px;
+}
+#introSection h2{
+    font-size: 35px;
+}
+#missionsection{
+    height: 500px;
+    background-color: rgba(232, 184, 200, 0.838);
+}
+#missionsection h2{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Arima', cursive;
+    font-size: 2.5rem;
+    color: rgba(242, 41, 95, 0.894);
+}
+#missionsection .card{
+    display: inline-block;
+    height: 300px;
+    width: 30%;
+    margin: 15px 18px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(163, 42, 163);
+    border-radius: 8px;
+    background-color: rgba(48, 232, 232, 0.945);
+    cursor: pointer;
+}
+#missionsection .card:hover{
+    background-color: rgba(114, 239, 201, 0.719);
+}
+#missionsection .card h1{
+    text-align: center;
+    font-family: 'Arima', cursive;
+    color: rgb(225, 14, 67);
+}
+.card-img img{
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    margin-top: 7px;
+}
+.card-content p{
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    color: navy;
+    margin-top: 20px;
+}
+#sponsorssection{
+    height: 250px;
+    background-color: rgb(245, 218, 245);
+}
+#sponsorssection h2{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-size: 2.5rem;
+    color: rgba(246, 224, 27, 0.894);
+}
+#sponsors{
+    width: 70%;
+    height: 180px;
+    display: block;
+    margin: auto;
+    margin-left: 420px;
+    margin-top: 50px;
+}
+#sponsorssection .spimage{
+    height: 50px;
+    margin: 20px 45px;
+}
+#footer{
+    height: 40px;
+    background-color: rgba(0, 0, 128, 0.532);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}

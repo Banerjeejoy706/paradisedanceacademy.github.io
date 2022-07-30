@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    
+    section#introSection
+      .container  
+        h1 Welcome to Paradise Dance Academy 
+        h2.small  Eat-Sleep-Dance-Repeat
+        
+    section#missionsection 
+        h2 Our Mission
+        .card 
+          h1  Hip-Hop Dance 
+          .card-box 
+            .card-img 
+              img(src="/static/img/hiphop.jpg")
+            .card-content 
+              p Enter the paradise of hip-hop
+        .card
+          h1  Classical Indian Dance
+          .card-box 
+            .card-img 
+              img(src="/static/img/indianclassical.jpg")
+            .card-content 
+              p Enter the paradise of Classical 
+        .card
+          h1  Ballet Dance 
+          .card-box 
+            .card-img 
+              img(src="/static/img/ballet.jpg")
+            .card-content 
+              p Enter the paradise of Ballet
+    section#sponsorssection 
+        h2 Our Sponsors
+        #sponsors 
+          img(src="/static/img/sponsor1.png", class= "spimage")
+          img(src="/static/img/sponsor2.png", class= "spimage")
+          img(src="/static/img/sponsor3.png", class= "spimage")
+          img(src="/static/img/sponsor4.png", class= "spimage")
