@@ -1,0 +1,56 @@
+doctype html
+html
+  head
+    title Paradise Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            #logo 
+              img(src= "/static/img/logo.jpg")
+              | PDA 
+            li #[a(href = '/') Home] 
+            li #[a(href = '/') About] 
+            li #[a(href = '/') Services] 
+            li #[a(href = '/') Join Now] 
+            li #[a(href = '/') Contact Us] 
+    section#introSection
+      .container  
+        h1 Welcome to Paradise Dance Academy 
+        h2.small  Eat-Sleep-Dance-Repeat
+        
+    section#missionsection 
+        h2 Our Mission
+        .card 
+          h1  Hip-Hop Dance 
+          .card-box 
+            .card-img 
+              img(src="/static/img/hiphop.jpg")
+            .card-content 
+              p Enter the paradise of hip-hop
+        .card
+          h1  Classical Indian Dance
+          .card-box 
+            .card-img 
+              img(src="/static/img/indianclassical.jpg")
+            .card-content 
+              p Enter the paradise of Classical 
+        .card
+          h1  Ballet Dance 
+          .card-box 
+            .card-img 
+              img(src="/static/img/ballet.jpg")
+            .card-content 
+              p Enter the paradise of Ballet
+    section#sponsorssection 
+        h2 Our Sponsors
+        #sponsors 
+          img(src="/static/img/sponsor1.png", class= "spimage")
+          img(src="/static/img/sponsor2.png", class= "spimage")
+          img(src="/static/img/sponsor3.png", class= "spimage")
+          img(src="/static/img/sponsor4.png", class= "spimage")
+    footer#footer 
+        | Copyright ©2022 | paradisedanceacademy.com | All rights reserved.
+    script
+      include ../static/index.js
